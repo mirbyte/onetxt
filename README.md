@@ -38,7 +38,7 @@ python onetxt.py --out all_notes.txt --pattern "*.txt"
 python onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors strict --no-pause
 ```
 
-- Windows: double‑click onetxt.py to run with defaults if no parameters are needed; the console stays open with a “Press Enter to exit...” prompt to prevent the window from closing immediately, and use --no-pause when launching from a terminal or automation to disable the prompt.
+- Windows: double‑click onetxt.py to run with defaults if no parameters are needed.
 
 
 ## Formatting example
