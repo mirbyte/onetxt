@@ -22,6 +22,8 @@ Place onetxt.py with the source files and run with Python.
 
 ### Windows
 
+- **Double‑click: on Windows, double‑clicking onetxt.py runs with defaults.**
+
 - Basic (PowerShell/CMD): run from the folder containing the files.
 
 ```bash
@@ -39,8 +41,6 @@ python onetxt.py --out all_notes.txt --pattern "*.txt"
 ```bash
 python onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors strict --no-pause
 ```
-
-- Double‑click: on Windows, double‑clicking onetxt.py runs with defaults.
 
 
 ### Others (macOS/Linux)
