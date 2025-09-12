@@ -5,7 +5,7 @@ import sys
 import argparse
 
 # github/mirbyte
-# v0.1
+# v0.2
 
 def find_text_files(cwd: Path, pattern: str, output_name: str):
     """Find text files matching pattern, excluding the output file."""
@@ -28,8 +28,9 @@ def merge_files(cwd: Path, output_name: str, pattern: str, encoding: str, errors
         out.write("<context>\n")
         
         for i, path in enumerate(txt_files):
-            name = path.stem # base filename without extension
-            out.write(f'  <doc id="{name}" name="{name}">\n')
+            name = path.stem  # base filename without extension
+            doc_id = i + 1    # numeric doc id starting at 1
+            out.write(f'  <doc id="{doc_id}" name="{name}">\n')
 
             # Stream input to avoid holding large files in memory
             last_line_ends_with_newline = True
@@ -80,6 +81,7 @@ def parse_args():
 
 
 
+
 def main():
     """Main entry point."""
     args = parse_args()
@@ -90,6 +92,7 @@ def main():
                          encoding=args.encoding,
                          errors=args.errors)
     pause_if_needed(enable_pause=not args.no_pause)
+
 
 if __name__ == "__main__":
     main()
