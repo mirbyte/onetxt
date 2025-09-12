@@ -14,31 +14,54 @@ onetxt scans the current directory for a glob pattern (default *.txt), concatena
 - Control input encoding and decode behavior via --encoding and --errors.
 
 
-## Install
+## Installation
 
 Place onetxt.py with the source files and run with Python.
 
 ## Usage
 
-- Basic: run from the directory containing the files to merge; the default writes merged_file.txt.
+### Windows
+
+- Basic (PowerShell/CMD): run from the folder containing the files; the default writes merged_file.txt.
 
 ```bash
 python onetxt.py
 ```
 
-- Custom output and pattern.
+- Custom output and pattern with globbing.
 
 ```bash
 python onetxt.py --out all_notes.txt --pattern "*.txt"
 ```
 
-- Merge Markdown with strict decoding and no pause (good for scripts/CI).
+- Merge Markdown with strict decoding and no pause (for scripts/CI).
 
 ```bash
 python onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors strict --no-pause
 ```
 
-- Windows: double‑click onetxt.py to run with defaults if no parameters are needed.
+- Double‑click: on Windows, double‑clicking onetxt.py runs with defaults and shows “Press Enter to exit...” so the console stays open; use --no-pause when launching from a terminal or automation to disable the prompt.
+
+
+### Others (macOS/Linux)
+
+- Basic: run from the folder containing the files; the default writes merged_file.txt.
+
+```bash
+python3 onetxt.py
+```
+
+- Custom output and pattern.
+
+```bash
+python3 onetxt.py --out all_notes.txt --pattern "*.txt"
+```
+
+- Merge Markdown with strict decoding and no pause (for scripts/CI).
+
+```bash
+python3 onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors strict --no-pause
+```
 
 
 ## Formatting example
