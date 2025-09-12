@@ -1,6 +1,6 @@
 # onetxt
 
-Hit chat‑AI attachment limits? Merge a directory of text files into one clean context file for easy ingestion with local or hosted models.
+Break through chat-AI attachment limits - merge a directory of text files into one clean context file for easy ingestion with local or hosted models.
 
 ## Overview
 
