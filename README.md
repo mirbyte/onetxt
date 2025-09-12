@@ -70,15 +70,15 @@ python3 onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors st
 
 ```txt
 <context>
-  <doc id="file1" name="file1">
+  <doc id="file1">
 contents1
   </doc>
 
-  <doc id="file2" name="file2">
+  <doc id="file2">
 contents2
   </doc>
 
-  <doc id="file3" name="file3">
+  <doc id="file3">
 contents3
   </doc>
 </context>
@@ -89,11 +89,11 @@ contents3
 
 ## Options
 
-- --out: Output filename, default merged_file.txt.
-- --pattern: Glob for inputs, default *.txt.
-- --encoding: Input encoding, default utf‑8.
-- --errors: strict | ignore | replace (default replace).
-- --no-pause: Do not prompt before exit (useful for scripted runs).
+- --out: Output filename, default merged_file.txt
+- --pattern: Glob for inputs, default *.txt
+- --encoding: Input encoding, default utf‑8
+- --errors: strict | ignore | replace (default replace)
+- --no-pause: Do not prompt before exit (useful for scripted runs)
 
 
 ## Notes
