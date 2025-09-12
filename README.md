@@ -22,7 +22,7 @@ Place onetxt.py with the source files and run with Python.
 
 ### Windows
 
-- Basic (PowerShell/CMD): run from the folder containing the files; the default writes merged_file.txt.
+- Basic (PowerShell/CMD): run from the folder containing the files.
 
 ```bash
 python onetxt.py
@@ -40,12 +40,12 @@ python onetxt.py --out all_notes.txt --pattern "*.txt"
 python onetxt.py --out dataset.md --pattern "*.md" --encoding utf-8 --errors strict --no-pause
 ```
 
-- Double‑click: on Windows, double‑clicking onetxt.py runs with defaults and shows “Press Enter to exit...” so the console stays open; use --no-pause when launching from a terminal or automation to disable the prompt.
+- Double‑click: on Windows, double‑clicking onetxt.py runs with defaults.
 
 
 ### Others (macOS/Linux)
 
-- Basic: run from the folder containing the files; the default writes merged_file.txt.
+- Basic: run from the folder containing the files.
 
 ```bash
 python3 onetxt.py
