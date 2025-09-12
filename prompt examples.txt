@@ -5,3 +5,6 @@ The attached text file(s) contain multiple sources separated with XML tags; synt
 
 
 The attached text file(s) contain multiple documents merged with <doc id="name"> XML tags. Analyze and synthesize information across all sources, identifying patterns, connections, and contrasts between documents. When citing evidence, use square brackets with the document ID and specific locators: [id, §section], [id, lines 85-92], or [id, p.3]. For claims spanning multiple sources, chain citations: [id, §intro][id, lines 45-50]. When information conflicts between sources, present both perspectives with citations. If specific details are unavailable, state this clearly before providing contextual guidance from related content. Understood?
+
+
+The attached text file(s) contain multiple sources separated with XML tags. your_custom_prompt_here
