@@ -99,3 +99,9 @@ contents3
 ## Notes
 
 onetxt writes a blank line between documents and guarantees each file ends with a newline so downstream chunkers and parsers see clean boundaries on the merged output.
+
+
+<br>
+
+<img width="1342" height="687" alt="claude_demo" src="https://github.com/user-attachments/assets/43ddb93a-d112-4033-bb8c-b68cbd1009d0" />
+
