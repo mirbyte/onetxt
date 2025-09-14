@@ -8,3 +8,7 @@ The attached text file(s) contain multiple documents merged with <doc id="name">
 
 
 The attached text file(s) contain multiple sources separated with XML tags. your_custom_prompt_here
+
+
+Attached is a merged .txt with multiple documents delimited by XML tags (<context><doc id="...">…</doc></context>). Each <doc> block represents one original source. your_custom_prompt_here
+
